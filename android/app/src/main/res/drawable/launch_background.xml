@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- ตั้งค่าพื้นหลัง -->
+    <item android:drawable="@android:color/white" />
+
+    <!-- เพิ่มโลโก้ตรงกลาง -->
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/logo" /> <!-- ชื่อไฟล์ไม่ต้องมีนามสกุล -->
+    </item>
+</layer-list>
